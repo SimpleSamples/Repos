@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitForExitHangs", "WaitForExitHangs\WaitForExitHangs.csproj", "{8DCEBD08-13E2-498E-8603-198376EB8173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitForExitHangsTest", "WaitForExitHangsTest\WaitForExitHangsTest.csproj", "{217E0C2C-C63C-4F8C-BE72-488F47588FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractionWithRedirection", "InteractionWithRedirection\InteractionWithRedirection.csproj", "{DA33BB70-5FF2-41E3-A262-5F29DA069312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractionWithRedirectionTest", "InteractionWithRedirectionTest\InteractionWithRedirectionTest.csproj", "{16059842-114D-4951-A3F2-A9069DBBB15C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractionWithRedirectionWPF", "InteractionWithRedirectionWPF\InteractionWithRedirectionWPF.csproj", "{5E532006-EFA3-42FC-8590-0F37ED7F35C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitForExitHangsWPF", "WaitForExitHangsWPF\WaitForExitHangsWPF.csproj", "{882E3732-90D5-4A05-833C-22B1721E6267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeRedirection", "RealtimeRedirection\RealtimeRedirection.csproj", "{C3B99CE5-A6C3-4F56-88CB-E4B852F8A14A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeRedirectionTest", "RealtimeRedirectionTest\RealtimeRedirectionTest.csproj", "{7F381323-EE40-4E53-820E-1F3105366432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeRedirectionMine", "RealtimeRedirectionMine\RealtimeRedirectionMine.csproj", "{2CAC4190-BB59-4841-89B5-944E20A5555A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedirectConsoleToRichtextbox", "RedirectConsoleToRichtextbox\RedirectConsoleToRichtextbox.csproj", "{634350F8-31C5-469C-9BAF-A0DC2FDFA940}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DCEBD08-13E2-498E-8603-198376EB8173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCEBD08-13E2-498E-8603-198376EB8173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCEBD08-13E2-498E-8603-198376EB8173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217E0C2C-C63C-4F8C-BE72-488F47588FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217E0C2C-C63C-4F8C-BE72-488F47588FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217E0C2C-C63C-4F8C-BE72-488F47588FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA33BB70-5FF2-41E3-A262-5F29DA069312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA33BB70-5FF2-41E3-A262-5F29DA069312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA33BB70-5FF2-41E3-A262-5F29DA069312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16059842-114D-4951-A3F2-A9069DBBB15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16059842-114D-4951-A3F2-A9069DBBB15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16059842-114D-4951-A3F2-A9069DBBB15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E532006-EFA3-42FC-8590-0F37ED7F35C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E532006-EFA3-42FC-8590-0F37ED7F35C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E532006-EFA3-42FC-8590-0F37ED7F35C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882E3732-90D5-4A05-833C-22B1721E6267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882E3732-90D5-4A05-833C-22B1721E6267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882E3732-90D5-4A05-833C-22B1721E6267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B99CE5-A6C3-4F56-88CB-E4B852F8A14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B99CE5-A6C3-4F56-88CB-E4B852F8A14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B99CE5-A6C3-4F56-88CB-E4B852F8A14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F381323-EE40-4E53-820E-1F3105366432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F381323-EE40-4E53-820E-1F3105366432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F381323-EE40-4E53-820E-1F3105366432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CAC4190-BB59-4841-89B5-944E20A5555A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CAC4190-BB59-4841-89B5-944E20A5555A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CAC4190-BB59-4841-89B5-944E20A5555A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634350F8-31C5-469C-9BAF-A0DC2FDFA940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634350F8-31C5-469C-9BAF-A0DC2FDFA940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634350F8-31C5-469C-9BAF-A0DC2FDFA940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634350F8-31C5-469C-9BAF-A0DC2FDFA940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C110632C-83D6-43D2-AFF9-1FE7454E34D3}
+	EndGlobalSection
+EndGlobal

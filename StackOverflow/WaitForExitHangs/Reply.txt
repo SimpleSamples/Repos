@@ -1,0 +1,54 @@
+﻿Let us call the sample code posted here the redirector and the other program the redirected. If it were me then I would probably write a test redirected program that can be used to duplicate the problem.
+So I did. For test data I used the ECMA-334 C# Language Specificationv PDF; it is about 5MB. The following is the important part of that.
+
+    StreamReader stream = null;
+    try { stream = new StreamReader(Path); }
+    catch (Exception ex)
+    {
+        Console.Error.WriteLine("Input open error: " + ex.Message);
+        return;
+    }
+    Console.SetIn(stream);
+    int datasize = 0;
+    try
+    {
+        string record = Console.ReadLine();
+        while (record != null)
+        {
+            datasize += record.Length + 2;
+            record = Console.ReadLine();
+            Console.WriteLine(record);
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.Error.WriteLine($"Error: {ex.Message}");
+        return;
+    }
+
+The datasize value does not match the actual file size but that does not matter. It is not clear if a PDF file always uses both CR and LF at the end of lines but that does not matter for this. You can use any other large text file to test with.
+Using that the sample redirector code hangs when I write the large amount of data but not when I write a small amount.
+
+I tried very much to somehow trace the execution of that code and I could not. I commented out the lines of the redirected program that disabled creation of a console for the redirected program to try to get a separate console window for it can I could not.
+
+Then I found [How to start a console app in a new window, the parent’s window, or no window](https://blogs.msdn.microsoft.com/jmstall/2006/09/28/how-to-start-a-console-app-in-a-new-window-the-parents-window-or-no-window).
+So apparently we cannot (easily) have a separate console when one console program starts another console program withoput ShellExecute and since ShellExecute does not support redirection we must share a console, even if we specify no window for the other process.
+I assume that if the redirected program fills up a buffer somewhere then it must wait for the data to be read and if at that point no data is read by the redirector then it is a deadlock.
+The solution is to not use ReadToEnd and to read the data while the data is being written but it is not necessary to use asynchronous reads. The solution can be quite simple, as in the following.
+
+    ProcessStartInfo info = new ProcessStartInfo(TheProgram);
+    info.CreateNoWindow = true;
+    info.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+    info.RedirectStandardOutput = true;
+    info.UseShellExecute = false;
+    Process p = Process.Start(info);
+    string record = p.StandardOutput.ReadLine();
+    while (record != null)
+    {
+        Console.WriteLine(record);
+        record = p.StandardOutput.ReadLine();
+    }
+    p.WaitForExit();
+
+I think another possibility is to use a GUI program to do the redirection. That can work; I can do redirection in a WPF program. I will probably write sample code for that and post it here later.
+However it might not be possible to use ReadToEnd to read large amounts of data.
