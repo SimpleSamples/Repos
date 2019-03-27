@@ -1,0 +1,16 @@
+﻿Moving Id: 5, ListIndex: 4, Name: Fourth
+        Data before resequence
+1 1 First
+3 2 Second
+4 3 Third
+5 4 Fourth
+        Data before SaveChanges
+5 1 Modified Fourth
+1 2 Modified First
+3 3 Modified Second
+4 4 Modified Third
+        Exception tree:
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details.
+System.Data.SqlClient.SqlException: Cannot insert duplicate key row in object 'dbo.OrderItems' with unique index 'IX_ListIndex'. The duplicate key value is (2).
+The statement has been terminated.
