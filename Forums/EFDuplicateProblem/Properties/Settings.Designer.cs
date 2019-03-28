@@ -34,5 +34,14 @@ namespace EFDuplicateProblem.Properties {
                 return ((string)(this["ConnectionStringSetting"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        public string ExcelConnectionSetting {
+            get {
+                return ((string)(this["ExcelConnectionSetting"]));
+            }
+        }
     }
 }
