@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<properties name="root">
+  <properties name="etc">
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>fileValidation</key>
+      <value>-1</value>
+      <readOnly>0</readOnly>
+    </property>
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>logLevel</key>
+      <value>0</value>
+      <readOnly>0</readOnly>
+    </property>
+  </properties>
+  <properties name="playlist">
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>type</key>
+      <value>3</value>
+      <readOnly>0</readOnly>
+    </property>
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>fillersPath</key>
+      <value></value>
+      <readOnly>0</readOnly>
+    </property>
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>loop</key>
+      <value>True</value>
+      <readOnly>0</readOnly>
+    </property>
+  </properties>
+  <properties name="content">
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>rundownPath</key>
+      <value>C%3A%5CProgramData%5CParallel%5CPlayout%5Crundown.evp</value>
+      <readOnly>0</readOnly>
+    </property>
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>type</key>
+      <value>2</value>
+      <readOnly>0</readOnly>
+    </property>
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>autoSave</key>
+      <value>True</value>
+      <readOnly>0</readOnly>
+    </property>
+  </properties>
+  <properties name="categories">
+    <properties name="libraries" />
+    <properties name="stompserver">
+      <property>
+        <type>0</type>
+        <dataType>0</dataType>
+        <key>port</key>
+        <value>8888</value>
+        <readOnly>0</readOnly>
+      </property>
+    </properties>
+  </properties>
+  <properties name="render">
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>displayMode</key>
+      <value>HD1080+30p</value>
+      <readOnly>0</readOnly>
+    </property>
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>normalization</key>
+      <value>0</value>
+      <readOnly>0</readOnly>
+    </property>
+  </properties>
+  <properties name="devices" />
+  <properties name="engine">
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>decodingMethod</key>
+      <value>True</value>
+      <readOnly>0</readOnly>
+    </property>
+    <property>
+      <type>0</type>
+      <dataType>0</dataType>
+      <key>timeBeforePrepareNext</key>
+      <value>5000</value>
+      <readOnly>0</readOnly>
+    </property>
+  </properties>
+</properties>
