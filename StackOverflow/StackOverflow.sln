@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeRedirectionMine", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedirectConsoleToRichtextbox", "RedirectConsoleToRichtextbox\RedirectConsoleToRichtextbox.csproj", "{634350F8-31C5-469C-9BAF-A0DC2FDFA940}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWhoIs", "ConsoleWhoIs\ConsoleWhoIs.csproj", "{53EF899A-475C-4DAA-9E01-B5920400CF07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,9 +59,12 @@ Global
 		{2CAC4190-BB59-4841-89B5-944E20A5555A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CAC4190-BB59-4841-89B5-944E20A5555A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{634350F8-31C5-469C-9BAF-A0DC2FDFA940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{634350F8-31C5-469C-9BAF-A0DC2FDFA940}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{634350F8-31C5-469C-9BAF-A0DC2FDFA940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{634350F8-31C5-469C-9BAF-A0DC2FDFA940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EF899A-475C-4DAA-9E01-B5920400CF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EF899A-475C-4DAA-9E01-B5920400CF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EF899A-475C-4DAA-9E01-B5920400CF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EF899A-475C-4DAA-9E01-B5920400CF07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

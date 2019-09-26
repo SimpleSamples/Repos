@@ -11,18 +11,26 @@ namespace csConsole
     {
         static void Main(string[] args)
         {
-            // byte[] result;
-            //FileStream SourceStream = File.Open(@"c:\Temp\userinputlog.txt", FileMode.Open);
-            // result = new byte[SourceStream.Length];
-            // Console.WriteLine(result);
-            string strValue = ReadOperation().Result;
-            Console.WriteLine(strValue);
+            Console.WriteLine(getDay(2));
         }
 
-        public async static Task<string> ReadOperation()
+        static string getDay(int dayNum)
         {
-            var ret = await File.ReadAllTextAsync("C:\\Users\\user\\Desktop\\file.txt");
-            return ret;
+            string dayName;
+
+            switch (dayNum)
+            {
+                case 0: dayName = "Monday"; break;
+                case 1: dayName = "Tuesday"; break;
+                case 2: dayName = "Wednesday"; break;
+                case 3: dayName = "Thursday"; break;
+                case 4: dayName = "Friday"; break;
+                case 5: dayName = "Saturday"; break;
+                case 6: dayName = "Sunday"; break;
+                default: dayName = "Invalid"; break;
+            }
+
+            return dayName;
         }
     }
 }
