@@ -1,17 +1,16 @@
 #include "pch.h"
-using namespace std;
+#include <windows.h>
+#include <iostream>
+#include "../ClassLibraryWrapper/ClassLibraryWrapper.h"
 
 int main()
 {
-    //std::cout << "Hello World!\n"; 
-	string name = "(MY NAME)",
-		address = "(MY HOME ADDRESS)",
-		phone = "(MY TELEPHONE NUMBER)",
-		major = "Cyber Security";
-
-	cout << "My name is " << name << ". " << endl <<
-		"My address is " << address << ". " << endl <<
-		"My telephone number is " << phone << ". " << endl <<
-		"My college major is " << major << ". " << endl;
+	std::cout << "Hello world!\n";
+	ShowValue(99);
+	wchar_t order[100];
+	GetOrder(order, _countof(order));
+	std::wcout << "Got: " << (wchar_t *)order << '\n';
+	wchar_t Something[](L"something");
+	bool b = SendSomething(77, Something);
 	return 0;
 }

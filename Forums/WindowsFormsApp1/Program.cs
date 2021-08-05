@@ -16,6 +16,10 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Form2 f2 = new Form2();
+            //Application.Run(f2);
+            //Form1 f1 = new Form1();
+            //f1.Filename = f2.Filename;
             Application.Run(new Form1());
         }
     }

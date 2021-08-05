@@ -1,0 +1,15 @@
+﻿<Window x:Class="Countdown.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Countdown"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="450">
+    <Grid Margin="0,0,377,264">
+        <ProgressBar HorizontalAlignment="Left" Height="24" Margin="16,10,-163,-25" VerticalAlignment="Top" Width="205" Maximum="1000" LargeChange="100" SmallChange="1" RenderTransformOrigin="0.161,-1.292"/>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" Height="500" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="16,50,-367,-251" >
+        <TextBlock x:Name="MessageBlock" TextWrapping="Wrap" Text="TextBlock" ScrollViewer.CanContentScroll="True"/>
+        </ScrollViewer>
+    </Grid>
+</Window>

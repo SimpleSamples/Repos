@@ -1,0 +1,540 @@
+<Response>
+  <status>
+    <version>1.0.0</version>
+    <code>0</code>
+    <msg>SuccessWithResult</msg>
+    <total>59</total>
+    <page>1</page>
+    <pagesize>10</pagesize>
+  </status>
+  <property>
+    <identifier>
+      <obPropId>15704843006065</obPropId>
+      <fips>06065</fips>
+      <apn>009709806</apn>
+      <apnOrig>9709806</apnOrig>
+      <attomId>157048430</attomId>
+    </identifier>
+    <lot>
+      <lotSize1>20.6</lotSize1>
+    </lot>
+    <address>
+      <country>US</country>
+      <countrySubd>CA</countrySubd>
+      <line1>74711 DILLON RD SPC 413</line1>
+      <line2>DESERT HOT SPRINGS, CA 92241</line2>
+      <locality>Desert Hot Springs</locality>
+      <matchCode>ExaStr</matchCode>
+      <oneLine>74711 DILLON RD SPC 413, DESERT HOT SPRINGS, CA 92241</oneLine>
+      <postal1>92241</postal1>
+      <postal2>7908</postal2>
+      <postal3>C003</postal3>
+    </address>
+    <location>
+      <accuracy>Street</accuracy>
+      <elevation>0</elevation>
+      <latitude>33.904346</latitude>
+      <longitude>-116.361668</longitude>
+      <distance>0</distance>
+      <geoid>CO06065, CS0690670, DB0629550, PL0672156, SB0000072633, SB0000072634, SB0000072636, ZI92241</geoid>
+    </location>
+    <summary>
+      <propclass>Single Family Residence / Townhouse</propclass>
+      <propsubtype>RESIDENTIAL</propsubtype>
+      <proptype>MOBILE HOME</proptype>
+      <yearbuilt>1987</yearbuilt>
+      <propLandUse>MOBILE HOME</propLandUse>
+      <propIndicator>10</propIndicator>
+    </summary>
+    <building>
+      <size>
+        <universalsize>1152</universalsize>
+      </size>
+      <rooms>
+        <bathstotal>2</bathstotal>
+        <beds>2</beds>
+      </rooms>
+    </building>
+    <vintage>
+      <lastModified>2019-2-8</lastModified>
+      <pubDate>2019-2-20</pubDate>
+    </vintage>
+  </property>
+  <property>
+    <identifier>
+      <obPropId>15713332906065</obPropId>
+      <fips>06065</fips>
+      <apn>009703392</apn>
+      <apnOrig>9703392</apnOrig>
+      <attomId>157133329</attomId>
+    </identifier>
+    <lot>
+      <lotSize1>20.6</lotSize1>
+    </lot>
+    <address>
+      <country>US</country>
+      <countrySubd>CA</countrySubd>
+      <line1>74711 DILLON RD SPC 432</line1>
+      <line2>DESERT HOT SPRINGS, CA 92241</line2>
+      <locality>Desert Hot Springs</locality>
+      <matchCode>ExaStr</matchCode>
+      <oneLine>74711 DILLON RD SPC 432, DESERT HOT SPRINGS, CA 92241</oneLine>
+      <postal1>92241</postal1>
+      <postal2>7974</postal2>
+      <postal3>C003</postal3>
+    </address>
+    <location>
+      <accuracy>Street</accuracy>
+      <elevation>0</elevation>
+      <latitude>33.904346</latitude>
+      <longitude>-116.361668</longitude>
+      <distance>0</distance>
+      <geoid>CO06065, CS0690670, DB0629550, PL0672156, SB0000072633, SB0000072634, SB0000072636, ZI92241</geoid>
+    </location>
+    <summary>
+      <propclass>Single Family Residence / Townhouse</propclass>
+      <propsubtype>RESIDENTIAL</propsubtype>
+      <proptype>MOBILE HOME</proptype>
+      <yearbuilt>1981</yearbuilt>
+      <propLandUse>MOBILE HOME</propLandUse>
+      <propIndicator>10</propIndicator>
+    </summary>
+    <building>
+      <size>
+        <universalsize>2664</universalsize>
+      </size>
+      <rooms>
+        <bathstotal>2</bathstotal>
+        <beds>3</beds>
+      </rooms>
+    </building>
+    <vintage>
+      <lastModified>2019-2-8</lastModified>
+      <pubDate>2019-2-20</pubDate>
+    </vintage>
+  </property>
+  <property>
+    <identifier>
+      <obPropId>15793182906065</obPropId>
+      <fips>06065</fips>
+      <apn>009722554</apn>
+      <apnOrig>9722554</apnOrig>
+      <attomId>157931829</attomId>
+    </identifier>
+    <lot>
+      <lotSize1>20.6</lotSize1>
+    </lot>
+    <address>
+      <country>US</country>
+      <countrySubd>CA</countrySubd>
+      <line1>74711 DILLON RD SPC 328</line1>
+      <line2>DESERT HOT SPRINGS, CA 92241</line2>
+      <locality>Desert Hot Springs</locality>
+      <matchCode>ExaStr</matchCode>
+      <oneLine>74711 DILLON RD SPC 328, DESERT HOT SPRINGS, CA 92241</oneLine>
+      <postal1>92241</postal1>
+      <postal2>8876</postal2>
+      <postal3>C003</postal3>
+    </address>
+    <location>
+      <accuracy>Street</accuracy>
+      <elevation>0</elevation>
+      <latitude>33.904346</latitude>
+      <longitude>-116.361668</longitude>
+      <distance>0</distance>
+      <geoid>CO06065, CS0690670, DB0629550, PL0672156, SB0000072633, SB0000072634, SB0000072636, ZI92241</geoid>
+    </location>
+    <summary>
+      <propclass>Single Family Residence / Townhouse</propclass>
+      <propsubtype>RESIDENTIAL</propsubtype>
+      <proptype>MOBILE HOME</proptype>
+      <yearbuilt>1978</yearbuilt>
+      <propLandUse>MOBILE HOME</propLandUse>
+      <propIndicator>10</propIndicator>
+    </summary>
+    <building>
+      <size>
+        <universalsize>1774</universalsize>
+      </size>
+      <rooms>
+        <bathstotal>2</bathstotal>
+        <beds>3</beds>
+      </rooms>
+    </building>
+    <vintage>
+      <lastModified>2019-2-8</lastModified>
+      <pubDate>2019-2-20</pubDate>
+    </vintage>
+  </property>
+  <property>
+    <identifier>
+      <obPropId>15827080006065</obPropId>
+      <fips>06065</fips>
+      <apn>009703075</apn>
+      <apnOrig>9703075</apnOrig>
+      <attomId>158270800</attomId>
+    </identifier>
+    <lot>
+      <lotSize1>20.6</lotSize1>
+    </lot>
+    <address>
+      <country>US</country>
+      <countrySubd>CA</countrySubd>
+      <line1>74711 DILLON RD SPC 416</line1>
+      <line2>DESERT HOT SPRINGS, CA 92241</line2>
+      <locality>Desert Hot Springs</locality>
+      <matchCode>ExaStr</matchCode>
+      <oneLine>74711 DILLON RD SPC 416, DESERT HOT SPRINGS, CA 92241</oneLine>
+      <postal1>92241</postal1>
+      <postal2>7908</postal2>
+      <postal3>C003</postal3>
+    </address>
+    <location>
+      <accuracy>Street</accuracy>
+      <elevation>0</elevation>
+      <latitude>33.904346</latitude>
+      <longitude>-116.361668</longitude>
+      <distance>0</distance>
+      <geoid>CO06065, CS0690670, PL0672156, SB0000072633, SB0000072634, SB0000072636, ZI92241</geoid>
+    </location>
+    <summary>
+      <propclass>Single Family Residence / Townhouse</propclass>
+      <propsubtype>RESIDENTIAL</propsubtype>
+      <proptype>MOBILE HOME</proptype>
+      <yearbuilt>1981</yearbuilt>
+      <propLandUse>MOBILE HOME</propLandUse>
+      <propIndicator>10</propIndicator>
+    </summary>
+    <building>
+      <size>
+        <universalsize>960</universalsize>
+      </size>
+      <rooms>
+        <bathstotal>2</bathstotal>
+        <beds>2</beds>
+      </rooms>
+    </building>
+    <vintage>
+      <lastModified>2019-2-8</lastModified>
+      <pubDate>2019-2-20</pubDate>
+    </vintage>
+  </property>
+  <property>
+    <identifier>
+      <obPropId>4035279306065</obPropId>
+      <fips>06065</fips>
+      <apn>659030006</apn>
+      <apnOrig>659030006</apnOrig>
+      <attomId>40352793</attomId>
+    </identifier>
+    <lot>
+      <lotSize1>10</lotSize1>
+    </lot>
+    <address>
+      <country>US</country>
+      <countrySubd>CA</countrySubd>
+      <line1>19440 MERGANZER TRL</line1>
+      <line2>DESERT HOT SPRINGS, CA 92241</line2>
+      <locality>Desert Hot Springs</locality>
+      <matchCode>ExaStr</matchCode>
+      <oneLine>19440 MERGANZER TRL, DESERT HOT SPRINGS, CA 92241</oneLine>
+      <postal1>92241</postal1>
+      <postal2>8916</postal2>
+      <postal3>C004</postal3>
+    </address>
+    <location>
+      <accuracy>Street</accuracy>
+      <elevation>0</elevation>
+      <latitude>33.910175</latitude>
+      <longitude>-116.449221</longitude>
+      <distance>0</distance>
+      <geoid>CO06065, CS0690670, DB0629550, ZI92241</geoid>
+    </location>
+    <summary>
+      <propclass>Single Family Residence / Townhouse</propclass>
+      <propsubtype>RESIDENTIAL</propsubtype>
+      <proptype>MOBILE HOME</proptype>
+      <yearbuilt>1985</yearbuilt>
+      <propLandUse>MOBILE HOME</propLandUse>
+      <propIndicator>10</propIndicator>
+    </summary>
+    <building>
+      <size>
+        <universalsize>2112</universalsize>
+      </size>
+      <rooms>
+        <bathstotal>3</bathstotal>
+        <beds>3</beds>
+      </rooms>
+    </building>
+    <vintage>
+      <lastModified>2019-2-8</lastModified>
+      <pubDate>2019-2-20</pubDate>
+    </vintage>
+  </property>
+  <property>
+    <identifier>
+      <obPropId>15714677206065</obPropId>
+      <fips>06065</fips>
+      <apn>009703960</apn>
+      <apnOrig>9703960</apnOrig>
+      <attomId>157146772</attomId>
+    </identifier>
+    <lot>
+      <lotSize1>20.6</lotSize1>
+    </lot>
+    <address>
+      <country>US</country>
+      <countrySubd>CA</countrySubd>
+      <line1>18131 LANGLOIS RD SPC F5</line1>
+      <line2>DESERT HOT SPRINGS, CA 92241</line2>
+      <locality>Desert Hot Springs</locality>
+      <matchCode>ExaStr</matchCode>
+      <oneLine>18131 LANGLOIS RD SPC F5, DESERT HOT SPRINGS, CA 92241</oneLine>
+      <postal1>92241</postal1>
+      <postal2>9469</postal2>
+      <postal3>C013</postal3>
+    </address>
+    <location>
+      <accuracy>Street</accuracy>
+      <elevation>0</elevation>
+      <latitude>33.914282</latitude>
+      <longitude>-116.432045</longitude>
+      <distance>0</distance>
+      <geoid>CO06065, CS0690670, DB0629550, MT30001332, ND0004668935, PL0618986, RS0004393468, SB0000072632, SB0000072633, SB0000072636, ZI92241</geoid>
+    </location>
+    <summary>
+      <propclass>Single Family Residence / Townhouse</propclass>
+      <propsubtype>RESIDENTIAL</propsubtype>
+      <proptype>MOBILE HOME</proptype>
+      <yearbuilt>1972</yearbuilt>
+      <propLandUse>MOBILE HOME</propLandUse>
+      <propIndicator>10</propIndicator>
+    </summary>
+    <building>
+      <size>
+        <universalsize>552</universalsize>
+      </size>
+      <rooms>
+        <bathstotal>1</bathstotal>
+        <beds>2</beds>
+      </rooms>
+    </building>
+    <vintage>
+      <lastModified>2019-2-8</lastModified>
+      <pubDate>2019-2-20</pubDate>
+    </vintage>
+  </property>
+  <property>
+    <identifier>
+      <obPropId>15714106106065</obPropId>
+      <fips>06065</fips>
+      <apn>009704512</apn>
+      <apnOrig>9704512</apnOrig>
+      <attomId>157141061</attomId>
+    </identifier>
+    <lot>
+      <lotSize1>13.62</lotSize1>
+    </lot>
+    <address>
+      <country>US</country>
+      <countrySubd>CA</countrySubd>
+      <line1>18070 LANGLOIS RD SPC 250</line1>
+      <line2>DESERT HOT SPRINGS, CA 92241</line2>
+      <locality>Desert Hot Springs</locality>
+      <matchCode>ExaStr</matchCode>
+      <oneLine>18070 LANGLOIS RD SPC 250, DESERT HOT SPRINGS, CA 92241</oneLine>
+      <postal1>92241</postal1>
+      <postal2>8332</postal2>
+      <postal3>C013</postal3>
+    </address>
+    <location>
+      <accuracy>Street</accuracy>
+      <elevation>0</elevation>
+      <latitude>33.917350</latitude>
+      <longitude>-116.431695</longitude>
+      <distance>0</distance>
+      <geoid>CO06065, CS0690670, DB0629550, MT30001332, PL0618986, RS0004393469, ZI92241</geoid>
+    </location>
+    <summary>
+      <propclass>Single Family Residence / Townhouse</propclass>
+      <propsubtype>RESIDENTIAL</propsubtype>
+      <proptype>MOBILE HOME</proptype>
+      <yearbuilt>1982</yearbuilt>
+      <propLandUse>MOBILE HOME</propLandUse>
+      <propIndicator>10</propIndicator>
+    </summary>
+    <building>
+      <size>
+        <universalsize>1880</universalsize>
+      </size>
+      <rooms>
+        <bathstotal>2</bathstotal>
+        <beds>3</beds>
+      </rooms>
+    </building>
+    <vintage>
+      <lastModified>2019-2-8</lastModified>
+      <pubDate>2019-2-20</pubDate>
+    </vintage>
+  </property>
+  <property>
+    <identifier>
+      <obPropId>15795714806065</obPropId>
+      <fips>06065</fips>
+      <apn>009724714</apn>
+      <apnOrig>9724714</apnOrig>
+      <attomId>157957148</attomId>
+    </identifier>
+    <lot>
+      <lotSize1>13.62</lotSize1>
+    </lot>
+    <address>
+      <country>US</country>
+      <countrySubd>CA</countrySubd>
+      <line1>18070 LANGLOIS RD SPC 210</line1>
+      <line2>DESERT HOT SPRINGS, CA 92241</line2>
+      <locality>Desert Hot Springs</locality>
+      <matchCode>ExaStr</matchCode>
+      <oneLine>18070 LANGLOIS RD SPC 210, DESERT HOT SPRINGS, CA 92241</oneLine>
+      <postal1>92241</postal1>
+      <postal2>8332</postal2>
+      <postal3>C013</postal3>
+    </address>
+    <location>
+      <accuracy>Street</accuracy>
+      <elevation>0</elevation>
+      <latitude>33.917350</latitude>
+      <longitude>-116.431695</longitude>
+      <distance>0</distance>
+      <geoid>CO06065, CS0690670, DB0629550, MT30001332, ND0004668935, PL0618986, RS0004393469, SB0000072633, SB0000072634, SB0000072636, ZI92241</geoid>
+    </location>
+    <summary>
+      <propclass>Single Family Residence / Townhouse</propclass>
+      <propsubtype>RESIDENTIAL</propsubtype>
+      <proptype>MOBILE HOME</proptype>
+      <yearbuilt>0</yearbuilt>
+      <propLandUse>MOBILE HOME</propLandUse>
+      <propIndicator>10</propIndicator>
+    </summary>
+    <building>
+      <size>
+        <universalsize>0</universalsize>
+      </size>
+      <rooms>
+        <bathstotal>0</bathstotal>
+        <beds>0</beds>
+      </rooms>
+    </building>
+    <vintage>
+      <lastModified>2019-2-8</lastModified>
+      <pubDate>2019-2-20</pubDate>
+    </vintage>
+  </property>
+  <property>
+    <identifier>
+      <obPropId>15713333506065</obPropId>
+      <fips>06065</fips>
+      <apn>009703403</apn>
+      <apnOrig>9703403</apnOrig>
+      <attomId>157133335</attomId>
+    </identifier>
+    <lot>
+      <lotSize1>12.26</lotSize1>
+    </lot>
+    <address>
+      <country>US</country>
+      <countrySubd>CA</countrySubd>
+      <line1>17300 CORKILL RD SPC 94</line1>
+      <line2>DESERT HOT SPRINGS, CA 92241</line2>
+      <locality>Desert Hot Springs</locality>
+      <matchCode>ExaStr</matchCode>
+      <oneLine>17300 CORKILL RD SPC 94, DESERT HOT SPRINGS, CA 92241</oneLine>
+      <postal1>92241</postal1>
+      <postal2>9450</postal2>
+      <postal3>C004</postal3>
+    </address>
+    <location>
+      <accuracy>Street</accuracy>
+      <elevation>0</elevation>
+      <latitude>33.921851</latitude>
+      <longitude>-116.440334</longitude>
+      <distance>0</distance>
+      <geoid>CO06065, CS0690670, DB0629550, MT30001332, ND0004668935, PL0618986, RS0004391649, SB0000072632, SB0000072633, SB0000072636, ZI92241</geoid>
+    </location>
+    <summary>
+      <propclass>Single Family Residence / Townhouse</propclass>
+      <propsubtype>RESIDENTIAL</propsubtype>
+      <proptype>MOBILE HOME</proptype>
+      <yearbuilt>1980</yearbuilt>
+      <propLandUse>MOBILE HOME</propLandUse>
+      <propIndicator>10</propIndicator>
+    </summary>
+    <building>
+      <size>
+        <universalsize>1056</universalsize>
+      </size>
+      <rooms>
+        <bathstotal>2</bathstotal>
+        <beds>2</beds>
+      </rooms>
+    </building>
+    <vintage>
+      <lastModified>2019-8-9</lastModified>
+      <pubDate>2019-8-31</pubDate>
+    </vintage>
+  </property>
+  <property>
+    <identifier>
+      <obPropId>15795696206065</obPropId>
+      <fips>06065</fips>
+      <apn>009723886</apn>
+      <apnOrig>9723886</apnOrig>
+      <attomId>157956962</attomId>
+    </identifier>
+    <lot>
+      <lotSize1>12.26</lotSize1>
+    </lot>
+    <address>
+      <country>US</country>
+      <countrySubd>CA</countrySubd>
+      <line1>17300 CORKILL RD SPC 41</line1>
+      <line2>DESERT HOT SPRINGS, CA 92241</line2>
+      <locality>Desert Hot Springs</locality>
+      <matchCode>ExaStr</matchCode>
+      <oneLine>17300 CORKILL RD SPC 41, DESERT HOT SPRINGS, CA 92241</oneLine>
+      <postal1>92241</postal1>
+      <postal2>9444</postal2>
+      <postal3>C004</postal3>
+    </address>
+    <location>
+      <accuracy>Street</accuracy>
+      <elevation>0</elevation>
+      <latitude>33.921851</latitude>
+      <longitude>-116.440334</longitude>
+      <distance>0</distance>
+      <geoid>CO06065, CS0690670, DB0629550, MT30001332, PL0618986, RS0004391649, ZI92241</geoid>
+    </location>
+    <summary>
+      <propclass>Single Family Residence / Townhouse</propclass>
+      <propsubtype>RESIDENTIAL</propsubtype>
+      <proptype>MOBILE HOME</proptype>
+      <yearbuilt>1983</yearbuilt>
+      <propLandUse>MOBILE HOME</propLandUse>
+      <propIndicator>10</propIndicator>
+    </summary>
+    <building>
+      <size>
+        <universalsize>784</universalsize>
+      </size>
+      <rooms>
+        <bathstotal>2</bathstotal>
+        <beds>2</beds>
+      </rooms>
+    </building>
+    <vintage>
+      <lastModified>2019-2-8</lastModified>
+      <pubDate>2019-2-20</pubDate>
+    </vintage>
+  </property>
+</Response>
