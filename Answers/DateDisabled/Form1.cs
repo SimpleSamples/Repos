@@ -25,16 +25,20 @@ namespace DateDisabled
             const int WM_KEYUP = 0x0101;
             if (CalendarDown)
                 return false;
+            // Does dateTimePicker1 exist?
             if (dtphwnd == IntPtr.Zero)
             {
                 return false;
             }
+            // Is this message for the dateTimePicker1?
             if (m.HWnd != dtphwnd)
             {
                 return false;
             }
+            // if key up or key down message then do not process it
             if (m.Msg == WM_KEYDOWN || m.Msg == WM_KEYUP)
                 return true;    // stop it from being dispatched
+            // All other messages are processed
             return false;
         }
 
