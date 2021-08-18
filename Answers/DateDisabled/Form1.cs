@@ -16,7 +16,6 @@ namespace DateDisabled
             InitializeComponent();
             dtphwnd = dateTimePicker1.Handle;
             Application.AddMessageFilter(this);
-            this.FormClosed += (s, e) => Application.RemoveMessageFilter(this);
         }
 
         public bool PreFilterMessage(ref Message m)
@@ -52,5 +51,9 @@ namespace DateDisabled
             CalendarDown = true;
         }
 
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.RemoveMessageFilter(this);
+        }
     }
 }
